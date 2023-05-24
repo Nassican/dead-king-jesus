@@ -86,6 +86,7 @@ function App() {
   function resetGame() {
     setHorsePositions([]);
     setKingPosition({ x: 0, y: 0 });
+    setCountMovimientos(0);
     console.log("reset game");
   }
 
